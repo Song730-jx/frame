@@ -17,6 +17,7 @@ public class BaseController extends ResultBean {
         resultBean.setSuccess(true);
         resultBean.setCode("0");
         resultBean.setData(data);
+        //12
         return resultBean;
     }
 
